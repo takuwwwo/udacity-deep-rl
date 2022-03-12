@@ -31,9 +31,9 @@ class Agent():
         self.device = device
 
         # Q-Network
-        self.qnetwork_local = QNetwork(state_size, action_size, seed, fc_units=512, dueling=dueling,
+        self.qnetwork_local = QNetwork(state_size, action_size, seed, fc_units=HIDDEN_UNITS, dueling=dueling,
                                        distributional=distributional, atoms=atoms).to(device)
-        self.qnetwork_target = QNetwork(state_size, action_size, seed, fc_units=512, dueling=dueling,
+        self.qnetwork_target = QNetwork(state_size, action_size, seed, fc_units=HIDDEN_UNITS, dueling=dueling,
                                         distributional=distributional, atoms=atoms).to(device)
         self.optimizer = optim.Adam(self.qnetwork_local.parameters(), lr=LR)
 
