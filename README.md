@@ -9,4 +9,3 @@ This repository is derivatives of Udacity's [Deep Reinforcement Learning NanoCou
 cd python
 pip install .
 ```
-### 3. 
