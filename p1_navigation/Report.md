@@ -10,6 +10,16 @@ In addition, I've added the spectral normalization to the last two layer of the 
 ## Model
 I've used a Multi-Layer-Perceptron with three layers and  512 hidden units. As described above, I've applied the spectral normalization to the last two layer.
 
+## Hyper-Parameters
+I used the following hyper-parameters.
+- Batchsize: 64
+- Number of hidden units: 512
+- Learning rate: 5e-04
+- Gamma: 0.99
+- Buffer size: 1e5
+- Tau for soft update: 1e-3
+- Frequency of update: 4
+
 ## Results
 The learning algorithm to which is applied Dueling Network, Distributional RL and spectral normalization attained +13 average reward over 100 episodes in total 667 episodes.
 
