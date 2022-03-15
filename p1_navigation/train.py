@@ -58,7 +58,7 @@ def dqn(agent: Agent, env, brain_name, n_episodes=2000, max_t=1000, eps_start=1.
 def main():
     # setup environment
     env = UnityEnvironment(
-        file_name="/home/takuo/Projects/udacity/RL/deep-reinforcement-learning/p1_navigation/Banana_Linux/Banana.x86_64")
+        file_name="./Banana_Linux/Banana.x86_64")
     brain_name = env.brain_names[0]
     brain = env.brains[brain_name]
 
