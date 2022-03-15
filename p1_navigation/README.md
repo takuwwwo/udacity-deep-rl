@@ -8,7 +8,12 @@ The state space is 37 dimensions which includes the agent's velocity. The agent 
 ## Dependencies
 ### 1. Setup the Python Environment According to README.md at the Parent Directory
 ### 2. Download the Unity Environment given by Udacity
-Place the Unity Environment file given by this course in this directory.
+Download the Unity environment depending on your operating system.
+- Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
+- Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
+- Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
+- Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
+Unzip the file and place it in this directory.
 
 ## How to Run
 ```
