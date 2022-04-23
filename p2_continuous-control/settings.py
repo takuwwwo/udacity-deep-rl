@@ -1,0 +1,12 @@
+BUFFER_SIZE = int(1e6)  # replay buffer size
+BATCH_SIZE = 256  # minibatch size
+HIDDEN_UNITS = 256
+GAMMA = 0.99  # discount factor
+TAU = 1e-2  # for soft update of target parameters
+ACTOR_LR = 1e-3  # learning rate
+CRITIC_LR = 1e-3  # learning rate
+UPDATE_EVERY = 30  # how often to update the network
+NUM_UPDATES = 10
+EPS_START = 1.
+SEED = 0
+ALGORITHM = 'DDPG'
